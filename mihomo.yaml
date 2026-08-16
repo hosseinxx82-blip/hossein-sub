@@ -91,6 +91,16 @@ proxies:
   - {name: "سرویس رایگان نوا @irnova_proxy 104.27.104.241:2083 [TROJAN]", server: 104.27.104.241, port: 2083, type: trojan, password: 5467d452-875f-4f3d-83f4-375434d15170, sni: freedomcreed.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: freedomcreed.web.id}}}
   - {name: "سرویس رایگان نوا @irnova_proxy 104.19.17.169:2083 [SS]", server: 104.19.17.169, port: 2083, type: ss, cipher: undefined, password: 5467d452-875f-4f3d-83f4-375434d15170, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: freedomcreed.web.id, path: "/?enc\\=undefined", tls: true, mux: false, skip-cert-verify: false}}
   - {name: "سرویس رایگان نوا @irnova_proxy 104.20.169.107:2083 [VLESS]", server: 104.20.169.107, port: 2083, type: vless, uuid: 5467d452-875f-4f3d-83f4-375434d15170, tls: true, skip-cert-verify: false, servername: freedomcreed.web.id, client-fingerprint: unsafe, network: ws, ws-opts: {path: /, headers: {Host: freedomcreed.web.id}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.24.199.151:8443 [TROJAN]", server: 104.24.199.151, port: 8443, type: trojan, password: 5467d452-875f-4f3d-83f4-375434d15170, sni: freedomcreed.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: freedomcreed.web.id}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.20.89.200:8443 [SS]", server: 104.20.89.200, port: 8443, type: ss, cipher: undefined, password: 5467d452-875f-4f3d-83f4-375434d15170, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: freedomcreed.web.id, path: "/?enc\\=undefined", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.16.45.89:8443 [VLESS]", server: 104.16.45.89, port: 8443, type: vless, uuid: 5467d452-875f-4f3d-83f4-375434d15170, tls: true, skip-cert-verify: false, servername: freedomcreed.web.id, client-fingerprint: unsafe, network: ws, ws-opts: {path: /, headers: {Host: freedomcreed.web.id}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.21.218.81:8443 [TROJAN]", server: 104.21.218.81, port: 8443, type: trojan, password: 5467d452-875f-4f3d-83f4-375434d15170, sni: freedomcreed.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: freedomcreed.web.id}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.20.128.108:8443 [SS]", server: 104.20.128.108, port: 8443, type: ss, cipher: undefined, password: 5467d452-875f-4f3d-83f4-375434d15170, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: freedomcreed.web.id, path: "/?enc\\=undefined", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.166.4:8443 [VLESS]", server: 104.19.166.4, port: 8443, type: vless, uuid: 5467d452-875f-4f3d-83f4-375434d15170, tls: true, skip-cert-verify: false, servername: freedomcreed.web.id, client-fingerprint: unsafe, network: ws, ws-opts: {path: /, headers: {Host: freedomcreed.web.id}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 172.66.158.132:8443 [TROJAN]", server: 172.66.158.132, port: 8443, type: trojan, password: 5467d452-875f-4f3d-83f4-375434d15170, sni: freedomcreed.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: freedomcreed.web.id}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.27.196:8443 [SS]", server: 104.17.27.196, port: 8443, type: ss, cipher: undefined, password: 5467d452-875f-4f3d-83f4-375434d15170, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: freedomcreed.web.id, path: "/?enc\\=undefined", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.21.59.145:8443 [VLESS]", server: 104.21.59.145, port: 8443, type: vless, uuid: 5467d452-875f-4f3d-83f4-375434d15170, tls: true, skip-cert-verify: false, servername: freedomcreed.web.id, client-fingerprint: unsafe, network: ws, ws-opts: {path: /, headers: {Host: freedomcreed.web.id}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.33.240:8443 [TROJAN]", server: 104.19.33.240, port: 8443, type: trojan, password: 5467d452-875f-4f3d-83f4-375434d15170, sni: freedomcreed.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: freedomcreed.web.id}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -161,6 +171,16 @@ proxy-groups:
       - سرویس رایگان نوا @irnova_proxy 104.27.104.241:2083 [TROJAN]
       - سرویس رایگان نوا @irnova_proxy 104.19.17.169:2083 [SS]
       - سرویس رایگان نوا @irnova_proxy 104.20.169.107:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.24.199.151:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.20.89.200:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.45.89:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.21.218.81:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.20.128.108:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.166.4:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.66.158.132:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.27.196:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.21.59.145:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.33.240:8443 [TROJAN]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -228,6 +248,16 @@ proxy-groups:
       - سرویس رایگان نوا @irnova_proxy 104.27.104.241:2083 [TROJAN]
       - سرویس رایگان نوا @irnova_proxy 104.19.17.169:2083 [SS]
       - سرویس رایگان نوا @irnova_proxy 104.20.169.107:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.24.199.151:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.20.89.200:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.45.89:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.21.218.81:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.20.128.108:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.166.4:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.66.158.132:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.27.196:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.21.59.145:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.33.240:8443 [TROJAN]
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -294,6 +324,16 @@ proxy-groups:
       - سرویس رایگان نوا @irnova_proxy 104.27.104.241:2083 [TROJAN]
       - سرویس رایگان نوا @irnova_proxy 104.19.17.169:2083 [SS]
       - سرویس رایگان نوا @irnova_proxy 104.20.169.107:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.24.199.151:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.20.89.200:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.45.89:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.21.218.81:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.20.128.108:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.166.4:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.66.158.132:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.27.196:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.21.59.145:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.33.240:8443 [TROJAN]
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -361,6 +401,16 @@ proxy-groups:
       - سرویس رایگان نوا @irnova_proxy 104.27.104.241:2083 [TROJAN]
       - سرویس رایگان نوا @irnova_proxy 104.19.17.169:2083 [SS]
       - سرویس رایگان نوا @irnova_proxy 104.20.169.107:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.24.199.151:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.20.89.200:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.45.89:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.21.218.81:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.20.128.108:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.166.4:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.66.158.132:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.27.196:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.21.59.145:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.33.240:8443 [TROJAN]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -444,6 +494,16 @@ proxy-groups:
       - سرویس رایگان نوا @irnova_proxy 104.27.104.241:2083 [TROJAN]
       - سرویس رایگان نوا @irnova_proxy 104.19.17.169:2083 [SS]
       - سرویس رایگان نوا @irnova_proxy 104.20.169.107:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.24.199.151:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.20.89.200:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.45.89:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.21.218.81:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.20.128.108:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.166.4:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.66.158.132:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.27.196:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.21.59.145:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.33.240:8443 [TROJAN]
   - name: ☁️ CloudFlareCDN
     type: select
     proxies:
@@ -515,6 +575,16 @@ proxy-groups:
       - سرویس رایگان نوا @irnova_proxy 104.27.104.241:2083 [TROJAN]
       - سرویس رایگان نوا @irnova_proxy 104.19.17.169:2083 [SS]
       - سرویس رایگان نوا @irnova_proxy 104.20.169.107:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.24.199.151:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.20.89.200:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.45.89:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.21.218.81:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.20.128.108:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.166.4:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.66.158.132:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.27.196:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.21.59.145:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.33.240:8443 [TROJAN]
 rules:
   - DOMAIN-SUFFIX,play.googleapis.com,🚀 节点选择
   - DOMAIN-SUFFIX,play-fe.googleapis.com,🚀 节点选择
